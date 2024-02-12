@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Parmar – Films Production & Film Studio</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.ico" />
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
+  <link rel="stylesheet" href="assets/css/flaticon.css" />
+  <link rel="stylesheet" href="assets/css/spacing.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+  <!-- mouse cursor drag start -->
+  <div class="mouseCursor cursor-outer"></div>
+  <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+  <!-- mouse cursor drag end -->
+
+  <!-- pre loader area start -->
+  <div id="loading">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <div class="loading-logo">
+          <svg id="camera-loader" width="85.708488" height="100" fill="white">
+            <defs id="defs12" />
+            <path id="camera-body"
+              d="M 51.5625 0 C 50.667739 -0.00962983 49.756943 0.05800477 48.84375 0.1875 C 41.018415 1.2971691 35.117198 7.3376842 33.8125 14.71875 C 30.504071 7.9918491 23.138091 3.8277945 15.3125 4.9375 C 5.573576 6.3185261 -1.1937811 15.321773 0.1875 25.0625 C 1.030765 31.00916 4.7245026 35.850708 9.6875 38.40625 L 10.59375 44.84375 L 41.21875 40.5 C 42.618434 40.301472 43.966737 41.101389 44.15625 42.4375 C 44.34576 43.773612 43.274684 44.957723 41.875 45.15625 L 11.25 49.5 L 12.40625 57.6875 C 12.593105 59.005185 13.837018 59.937079 15.15625 59.75 L 64.25 52.78125 C 65.567815 52.594377 66.499355 51.348937 66.3125 50.03125 L 63.5625 30.78125 C 67.618077 26.946961 69.843395 21.259142 69 15.3125 C 67.748216 6.4849658 60.211858 0.09304631 51.5625 0 z M 51.28125 3.75 C 58.168631 3.6506107 64.22589 8.6859174 65.21875 15.6875 C 66.295328 23.279482 61.029156 30.329715 53.4375 31.40625 C 45.84552 32.482829 38.795329 27.18573 37.71875 19.59375 C 36.641441 11.998855 41.938942 4.9828747 49.53125 3.90625 C 50.124347 3.8221462 50.697574 3.7584222 51.28125 3.75 z M 17.5625 8.53125 C 24.449868 8.4318561 30.507144 13.46718 31.5 20.46875 C 32.576577 28.060719 27.310389 35.110969 19.71875 36.1875 C 12.126783 37.264077 5.0765804 31.966969 4 24.375 C 2.9226914 16.780121 8.2202041 9.7641225 15.8125 8.6875 C 16.405598 8.603395 16.978824 8.5396714 17.5625 8.53125 z M 79.71875 27.46875 L 66.9375 33.65625 L 68.53125 44.8125 L 82.53125 47.21875 L 79.71875 27.46875 z M 41.71875 41.0625 C 41.582761 41.058251 41.422178 41.073761 41.28125 41.09375 L 8.15625 45.78125 L 7.90625 44.09375 L 2.78125 43.9375 L 4 52.53125 L 8.875 50.9375 L 8.625 49.25 L 41.78125 44.5625 C 42.908673 44.40259 43.699053 43.493996 43.5625 42.53125 C 43.443014 41.688847 42.670671 41.092246 41.71875 41.0625 z M 51.53125 57.21875 L 28.625 60.4375 C 28.625117 63.279515 28.625057 61.501735 28.625 64.34375 L 30.90625 64.34375 L 32.40625 64.34375 L 17.21875 97.46875 C 16.804629 98.371268 17.19123 99.429629 18.09375 99.84375 C 18.996268 100.25787 20.054629 99.87127 20.46875 98.96875 L 36.34375 64.34375 L 38.28125 64.34375 L 38.28125 98.21875 C 38.28125 99.211743 39.069507 100 40.0625 100 C 41.055493 100 41.875 99.211743 41.875 98.21875 L 41.875 64.34375 L 43.6875 64.34375 L 59.71875 98.96875 C 60.136118 99.869771 61.192729 100.26112 62.09375 99.84375 C 62.994771 99.426382 63.386118 98.338521 62.96875 97.4375 L 47.65625 64.34375 L 49.09375 64.34375 L 51.53125 64.34375 L 51.53125 57.21875 z " />
+            <path id="reel-1"
+              d="m 17.763265,10.60917 c -1.849868,0 -3.349902,1.500036 -3.349902,3.349902 0,1.849868 1.500034,3.34863 3.349902,3.34863 1.849865,0 3.348629,-1.498762 3.348629,-3.34863 0,-1.849866 -1.498764,-3.349902 -3.348629,-3.349902 z m -8.0539896,5.851215 c -1.849868,0 -3.3499023,1.500032 -3.3499023,3.349898 0,1.849866 1.5000343,3.349897 3.3499023,3.349897 1.8498656,0 3.3498996,-1.500031 3.3498996,-3.349897 0,-1.849866 -1.500034,-3.349898 -3.3498996,-3.349898 z m 16.1016246,0 c -1.849868,0 -3.3499,1.500032 -3.3499,3.349898 0,1.849866 1.500032,3.349897 3.3499,3.349897 1.849865,0 3.348629,-1.500031 3.348629,-3.349897 0,-1.849866 -1.498764,-3.349898 -3.348629,-3.349898 z m -13.023579,9.460259 c -1.849867,0 -3.3498994,1.500032 -3.3498994,3.349902 0,1.849865 1.5000324,3.348629 3.3498994,3.348629 1.849867,0 3.3499,-1.498764 3.3499,-3.348629 0,-1.84987 -1.500033,-3.349902 -3.3499,-3.349902 z m 9.950613,0 c -1.849866,0 -3.348629,1.500032 -3.348629,3.349902 0,1.849865 1.498763,3.348629 3.348629,3.348629 1.849865,0 3.349901,-1.498764 3.349901,-3.348629 0,-1.84987 -1.500036,-3.349902 -3.349901,-3.349902 z">
+              <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="2s" begin="0"
+                from="0 17.66 22.74" to="360 17.66 22.74" repeatCount="indefinite" />
+            </path>
+            <path id="reel-2"
+              d="m 51.483904,5.8171007 c -1.849872,0 -3.349908,1.5000388 -3.349908,3.3499074 0,1.8498709 1.500036,3.3486359 3.349908,3.3486359 1.849868,0 3.348635,-1.498765 3.348635,-3.3486359 0,-1.8498686 -1.498767,-3.3499074 -3.348635,-3.3499074 z M 43.4299,11.668326 c -1.849872,0 -3.349908,1.500034 -3.349908,3.349904 0,1.849869 1.500036,3.349903 3.349908,3.349903 1.849869,0 3.349906,-1.500034 3.349906,-3.349903 0,-1.84987 -1.500037,-3.349904 -3.349906,-3.349904 z m 16.101654,0 c -1.849871,0 -3.349907,1.500034 -3.349907,3.349904 0,1.849869 1.500036,3.349903 3.349907,3.349903 1.849867,0 3.348635,-1.500034 3.348635,-3.349903 0,-1.84987 -1.498768,-3.349904 -3.348635,-3.349904 z m -13.023602,9.460276 c -1.849871,0 -3.349907,1.500034 -3.349907,3.349908 0,1.849869 1.500036,3.348635 3.349907,3.348635 1.849869,0 3.349905,-1.498766 3.349905,-3.348635 0,-1.849874 -1.500036,-3.349908 -3.349905,-3.349908 z m 9.950632,0 c -1.849872,0 -3.348637,1.500034 -3.348637,3.349908 0,1.849869 1.498765,3.348635 3.348637,3.348635 1.849867,0 3.349905,-1.498766 3.349905,-3.348635 0,-1.849874 -1.500038,-3.349908 -3.349905,-3.349908 z">
+              <animateTransform attributeName="transform" attributeType="XML" type="rotate" dur="3.6s" begin="0"
+                from="0 51.4 17.7" to="360 51.4 17.7" repeatCount="indefinite" />
+            </path>
+          </svg>
+        </div>
+        <div class="loading_text">
+          <span class="loading_text_words">L</span>
+          <span class="loading_text_words">O</span>
+          <span class="loading_text_words">A</span>
+          <span class="loading_text_words">D</span>
+          <span class="loading_text_words">I</span>
+          <span class="loading_text_words">N</span>
+          <span class="loading_text_words">G</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- pre loader area end -->
+
+  <!-- back to top start -->
+  <div class="back-to-top-wrapper">
+    <button id="back_to_top" type="button" class="back-to-top-btn">
+      <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+    </button>
+  </div>
+  <!-- back to top end -->
+
+  <!-- offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__close">
+      <button class="offcanvas__close-btn offcanvas-close-btn">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+    <div class="offcanvas__wrapper">
+      <div class="offcanvas__content">
+        <div class="offcanvas__top mb-40">
+          <div class="offcanvas__logo">
+            <a href="index.html">
+              <img src="assets/img/logo/logo.png" alt="logo" />
+            </a>
+          </div>
+        </div>
+        <div class="tp-main-menu-mobile fix d-xl-none mb-30"></div>
+        <div class="offcanvas-info mb-30">
+          <h4 class="offcanvas__title">Contacts</h4>
+          <div class="offcanvas__contact-content d-flex">
+            <div class="offcanvas__contact-content-icon">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
+            <div class="offcanvas__contact-content-content">
+              <a
+                href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86
+                Road Broklyn Street, 600
+              </a>
+            </div>
+          </div>
+          <div class="offcanvas__contact-content d-flex">
+            <div class="offcanvas__contact-content-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="offcanvas__contact-content-content">
+              <a href="/cdn-cgi/l/email-protection#305e55555458555c4070535f5d40515e491e535f5d">
+                <span class="__cf_email__"
+                  data-cfemail="551b3030313d30392515363a3825343b2c7b363a38">info@parmarfilms.com </span>
+              </a>
+            </div>
+          </div>
+          <div class="offcanvas__contact-content d-flex">
+            <div class="offcanvas__contact-content-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="offcanvas__contact-content-content">
+              <a href="tel:+91 9757335137">+91 9757335137</a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas__social">
+          <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
+          <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="body-overlay"></div>
+  <!-- offcanvas area end -->
+
+  <!-- header area start -->
+  <header class="tp-header-area p-relative tp-header-height" style="height: 100px">
+    <div class="tp-header-top d-none d-xl-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xxl-6 col-xl-8">
+            <div class="tp-header-top-info">
+              <ul>
+                <li>
+                  <a href="/cdn-cgi/l/email-protection#553c3b333a15302d34382539307b363a38"><span><i
+                        class="fa-solid fa-envelope"></i></span><span class="__cf_email__"
+                      data-cfemail="6a03040c052a0f120b071a060f44090507">info@parmarfilms.com </span></a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/place/Maplle+Morya+Classic/@19.1413705,72.8311144,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7b63c7fbab97d:0x36cfa953d7eb9dad!8m2!3d19.1413655!4d72.8336893!16s%2Fg%2F11bxd8l_yr?entry=ttu"
+                    target="_blank"><span><i class="fa-sharp fa-solid fa-location-dot"></i></span>304,
+                     Mumbai 400053.</a>
+                </li>
+                <li>
+                  <a href="tel:+91 9757335137"><span><i class="fa-solid fa-phone"></i></span>+91 97573 35137</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-4">
+            <div class="tp-header-top-right d-flex justify-content-end align-items-center">
+              <div class="header-social d-xl-block d-none">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header-sticky" class="tp-header-main p-relative">
+      <div class="container">
+        <div class="tp-header-box">
+          <div class="row align-items-center">
+            <div class="col-xl-2 col-6">
+              <div class="tp-header-main-left p-relative d-flex justify-content-xl-center">
+                <div class="tp-header-logo">
+                  <a href="index.html">
+                    <img src="assets/img/logo/logo.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-8 d-none d-xl-block">
+              <div class="tp-main-menu-area d-flex align-items-center justify-content-center">
+                <div class="tp-main-menu">
+                  <nav class="tp-main-menu-content">
+                    <ul>
+                      <li class="">
+                        <a href="index.html">Home</a>
+                        <!-- <ul class="submenu"> -->
+                        <!-- <li><a href="index.html">Home 1</a></li> -->
+                        <!-- <li><a href="index-2.html">Home 2</a></li> -->
+                        <!-- <li><a href="index-3.html">Home 3</a></li> -->
+                        <!-- </ul> -->
+                      </li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="service.html">Services</a></li>
+                      <li><a href="project.html">Projects</a></li>
+                      <li><a href="team.html">Our Team</a></li>
+                      <!-- <li class="has-dropdown">
+                             <a href="index.html">Pages</a>
+                             <ul class="submenu">
+                               <li><a href="service.html">Service</a></li>
+                               <li>
+                                 <a href="service-details.html">Service Details</a>
+                               </li>
+                               <li><a href="project.html">Projects</a></li>
+                               <li>
+                                 <a href="project-details.html">Project Details</a>
+                               </li>
+                               <li><a href="team.html">Team</a></li>
+                               <li>
+                                 <a href="team-details.html">Team Details</a>
+                               </li>
+                               <li><a href="faq.html">Faq</a></li>
+                             </ul>
+                           </li> -->
+                      <!-- <li class="has-dropdown">
+                             <a href="blog.html">Blog</a>
+                             <ul class="submenu">
+                               <li><a href="blog.html">Blog</a></li>
+                               <li>
+                                 <a href="blog-details.html">Blog Details</a>
+                               </li>
+                             </ul>
+                           </li> -->
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-6">
+              <div class="tp-header-main-right d-flex align-items-center justify-content-end">
+                <!-- <div class="tp-header-contact d-none d-xl-block z-index-1">
+                       <div
+                         class="tp-header-contact-search search-open-btn d-none d-xxl-block"
+                       >
+                         <span
+                           ><i class="fa-regular fa-magnifying-glass"></i
+                         ></span>
+                       </div>
+                     </div> -->
+                <div class="tp-header-hamburger-btn offcanvas-open-btn">
+                  <button class="hamburger-btn">
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header area end -->
+
+  <main class="tp-page-wrapper">
+    <!-- about breadcrumb area start -->
+    <section class="tp-breadcrumb__area tp-breadcrumb__overlay pt-245 pb-170 p-relative z-index-1 fix">
+      <div class="tp-breadcrumb__bg" data-background="assets/img/breadcrumb/bg.png"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <div class="tp-breadcrumb__content">
+              <h3 class="tp-breadcrumb__title">About US</h3>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="tp-breadcrumb__content">
+              <div class="tp-breadcrumb__list text-start text-sm-end">
+                <span><a href="index.html">Home</a></span>
+                <span class="dvdr"><i class="fa-regular fa-angle-right"></i></span>
+                <span>About US</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about breadcrumb area end -->
+
+    <!-- history area start -->
+    <section class="tp-history-area breadcrumb-history pt-120 pb-95">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="tp-history-thumb-wrapper p-relative wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+              <div class="tp-history-thumb text-center">
+                <img src="assets/img/history/img-1.jpg" alt="" />
+              </div>
+              <div class="tp-history-thumb-shape">
+                <img class="shape-1" src="assets/img/history/shape-1.png" alt="" />
+                <img class="shape-2" src="assets/img/history/shape-2.png" alt="" />
+              </div>
+              <div class="tp-history-thumb-counter d-flex align-items-center">
+                <div class="tp-history-thumb-counter-icon">
+                  <img src="assets/img/history/icon-1.png" alt="" />
+                </div>
+                <div class="tp-history-thumb-counter-content">
+                  <h4 class="tp-history-thumb-counter-title">
+                    <span class="purecounter" data-purecounter-duration="4" data-purecounter-end="150"></span>+
+                  </h4>
+                  <p>Latest Movie</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tp-history-title-wrapper wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+              <span class="tp-section-title-pre">A tale of</span>
+              <h2 class="tp-section-title">The Ultimate Movie Destination</h2>
+              <p>
+                Parmar Films is a world-wide film prod •on company based in
+                Mumbai having Offices in India & World wide Delhi gwalior
+                Rajasthan, Dubai,US & UK also. SHF Mission is to assist
+                Production companies from all over the world to make sure they
+                have wonderful shooting experience in unique locations of
+                India & overseas.
+              </p>
+              <p>
+                We have a highly skilled experienced team thy can handle your
+                film Productions, Provide you the most modern equipment, Get
+                shooting permissions give subsidy guidance and get logistic
+                facilitation in an unproblematic way.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="tp-history-wrapper wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+              <p>
+                We grasp last minute adjustments easily and align ourselves
+                depen ing on your needs. We have a huge network with reliable
+                , domestic & international Production contracts and offces
+                around the World.
+              </p>
+              <div class="tp-history-wrapper-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-check"></i> More Than Just a Movie
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Lights Out, Movie On
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Enter a World of
+                    Imagination
+                  </li>
+                </ul>
+              </div>
+              <p>
+                Looking for trustworthy team? We look forward to operating
+                with you in forthcoming projects.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tp-history-thumb-2nd text-center wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s"
+              data-tilt="" data-tilt-perspective="2000">
+              <img src="assets/img/history/img-2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- history area end -->
+
+    <!-- counter area start -->
+    <section class="tp-counter-area pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-counter-item text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+              <div class="tp-counter-item-icon">
+                <img src="assets/img/counter/img-1.png" alt="" />
+              </div>
+              <div class="tp-counter-item-content">
+                <h4 class="tp-counter-item-title">
+                  <span class="purecounter" data-purecounter-duration="3" data-purecounter-end="200"></span>+
+                </h4>
+                <p>Team member</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-counter-item text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+              <div class="tp-counter-item-icon">
+                <img src="assets/img/counter/img-2.png" alt="" />
+              </div>
+              <div class="tp-counter-item-content">
+                <h4 class="tp-counter-item-title">
+                  <span class="purecounter" data-purecounter-duration="3" data-purecounter-end="20"></span>+
+                </h4>
+                <p>Winning award</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-counter-item text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+              <div class="tp-counter-item-icon">
+                <img src="assets/img/counter/img-3.png" alt="" />
+              </div>
+              <div class="tp-counter-item-content">
+                <h4 class="tp-counter-item-title">
+                  <span class="purecounter" data-purecounter-duration="2" data-purecounter-end="10"></span>k+
+                </h4>
+                <p>Complete project</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-counter-item text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
+              <div class="tp-counter-item-icon">
+                <img src="assets/img/counter/img-4.png" alt="" />
+              </div>
+              <div class="tp-counter-item-content">
+                <h4 class="tp-counter-item-title">
+                  <span class="purecounter" data-purecounter-duration="4" data-purecounter-end="500"></span>+
+                </h4>
+                <p>Client review</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counter area end -->
+
+    <!-- trailer area start -->
+    <!-- <section class="tp-trailer-area pt-120 pb-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="tp-trailer-thumb-wrapper p-relative pt-100 wow fadeInLeft" data-wow-duration="1s"
+              data-wow-delay=".3s">
+              <div class="tp-trailer-shape">
+                <img src="assets/img/trailer/shape.png" alt="" />
+              </div>
+              <div class="tp-trailer-thumb text-end p-relative z-index-1" data-tilt="" data-tilt-perspective="2000">
+                <img src="assets/img/trailer/img-1.jpg" alt="" />
+                <div class="tp-trailer-thumb-play-btn">
+                  <a class="tp-play-btn popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494">
+                    <i class="fa-solid fa-play"></i></a>
+                </div>
+              </div>
+              <div class="tp-trailer-shape-2">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tp-trailer-title-wrapper pt-100 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+              <h3 class="tp-section-title">
+                Creating unforgettable moments on the big screen
+              </h3>
+              <p>
+                It is a long established fact that a reader will distracted by
+                the readable content of a page hen looking at its layout.The
+                point of using Lorem Ipsum
+              </p>
+              <div class="tp-trailer-btn">
+                <a class="tp-btn" href="about.html">Load More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- trailer area end -->
+
+    <!-- cta area start -->
+    <section class="tp-cta-area pt-80 p-relative" data-bg-color="#E27614">
+      <div class="tp-cta-overlay include-bg" data-background="assets/img/cta/bg.png"></div>
+      <div class="tp-cta-shape d-none d-md-block">
+        <img src="assets/img/cta/img-1.jpg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <div class="tp-cta-contact p-relative">
+              <h4 class="tp-cta-title">
+                <a href="tel:+91 9757335137"><span><svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M23.1891 5.76507C23.3176 5.28484 23.6316 4.87532 24.0621 4.62656C24.4925 4.37779 25.0041 4.31015 25.4844 4.4385C27.9084 5.07001 30.1202 6.33672 31.8915 8.108C33.6627 9.87928 34.9294 12.091 35.5609 14.5151C35.6304 14.7547 35.6513 15.0058 35.6225 15.2536C35.5937 15.5015 35.5157 15.741 35.3931 15.9583C35.2705 16.1756 35.1057 16.3663 34.9085 16.5191C34.7113 16.6719 34.4856 16.7839 34.2445 16.8483C34.0035 16.9128 33.752 16.9285 33.5049 16.8945C33.2577 16.8606 33.0198 16.7776 32.8051 16.6506C32.5903 16.5235 32.4032 16.3548 32.2545 16.1545C32.1058 15.9541 31.9985 15.7261 31.9391 15.4838C31.4734 13.6982 30.5401 12.0691 29.2352 10.7642C27.9304 9.45937 26.3012 8.52603 24.5156 8.06038C24.0354 7.93182 23.6259 7.61781 23.3771 7.18738C23.1284 6.75695 23.0607 6.24535 23.1891 5.76507ZM36.8516 27.4338C36.5536 29.702 35.4402 31.7841 33.7193 33.2914C31.9984 34.7987 29.7877 35.628 27.5 35.6244C14.7484 35.6244 4.37501 25.251 4.37501 12.4994C4.37147 10.2118 5.20077 8.00106 6.70804 6.28015C8.21531 4.55924 10.2975 3.44584 12.5656 3.14788C13.2339 3.06667 13.9106 3.20291 14.4954 3.5364C15.0803 3.8699 15.5421 4.38292 15.8125 4.99944L19.1109 12.3635C19.1145 12.3732 19.1186 12.3826 19.1234 12.3916C19.3262 12.8654 19.4086 13.382 19.3633 13.8953C19.318 14.4086 19.1465 14.9028 18.8641 15.3338C18.8239 15.3966 18.7795 15.4566 18.7313 15.5135L15.7531 19.0619C16.8563 21.0682 18.9563 23.1494 20.9859 24.251L24.4719 21.2823C24.5278 21.2354 24.5863 21.1916 24.6469 21.151C25.0794 20.8608 25.5779 20.6838 26.0966 20.6363C26.6153 20.5888 27.1376 20.6723 27.6156 20.8791L27.6438 20.8916L35 24.1869C35.6164 24.4576 36.1292 24.9194 36.4627 25.5042C36.7962 26.089 36.9325 26.7655 36.8516 27.4338ZM33.0531 27.4244L26.4906 24.4854L22.9859 27.4651C22.9309 27.5128 22.8729 27.5571 22.8125 27.5979C22.362 27.8966 21.8417 28.0733 21.3025 28.1109C20.7632 28.1484 20.2235 28.0454 19.7359 27.8119C16.6922 26.3432 13.6594 23.3307 12.1875 20.3119C11.9534 19.8266 11.8489 19.289 11.8839 18.7513C11.9189 18.2136 12.0924 17.6941 12.3875 17.2432C12.4282 17.1804 12.4731 17.1203 12.5219 17.0635L15.5156 13.5135L12.575 6.95101C11.3116 7.22943 10.1814 7.93153 9.37192 8.94077C8.56248 9.95001 8.1225 11.2057 8.12501 12.4994C8.13121 17.6361 10.1745 22.5606 13.8067 26.1928C17.4388 29.825 22.3633 31.8682 27.5 31.8744C28.7946 31.878 30.0513 31.4385 31.0615 30.629C32.0718 29.8195 32.7745 28.6887 33.0531 27.4244ZM22.7547 13.9791C23.5215 14.2208 24.2187 14.6438 24.7871 15.2123C25.3556 15.7808 25.7786 16.478 26.0203 17.2448C26.14 17.6252 26.3778 17.9576 26.6992 18.1936C27.0207 18.4296 27.409 18.557 27.8078 18.5573C27.9991 18.557 28.1892 18.5281 28.3719 18.4713C28.8444 18.3218 29.2384 17.9914 29.468 17.5522C29.6975 17.113 29.7439 16.6008 29.5969 16.1276C29.174 14.785 28.4335 13.5643 27.4382 12.569C26.443 11.5737 25.2222 10.8332 23.8797 10.4104C23.6434 10.3311 23.3937 10.2997 23.1452 10.3181C22.8966 10.3364 22.6542 10.4041 22.4321 10.5173C22.2101 10.6304 22.0128 10.7866 21.8518 10.9769C21.6908 11.1672 21.5694 11.3876 21.4946 11.6254C21.4198 11.8631 21.3932 12.1134 21.4163 12.3615C21.4393 12.6097 21.5117 12.8508 21.629 13.0706C21.7463 13.2905 21.9063 13.4848 22.0996 13.6421C22.2929 13.7995 22.5156 13.9167 22.7547 13.9869V13.9791Z"
+                        fill="#2B2B5E" />
+                    </svg></span>
+                  Get a Consultation Call Us +91 9757335137
+                </a>
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="tp-cta-btn p-relative text-start text-md-end">
+              <a class="tp-btn" href="contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cta area end -->
+  </main>
+
+  <!-- footer area start -->
+  <footer class="tp-footer-area pt-90 p-relative z-index-1" data-bg-color="#0F172A">
+    <div class="tp-footer-main-area">
+      <div class="container">
+        <div class="tp-footer-border">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="tp-footer-widget tp-footer-col-1 mb-50">
+                <div class="tp-footer-logo">
+                  <a href="index.html">
+                    <img src="assets/img/logo/logo.png" alt="" /></a>
+                </div>
+                <div class="tp-footer-widget-content">
+                  <p>
+                    Parmar films provides all production services for feature films, commercial films, documentary
+                    films, web/tv series, corporate videos, industrial shoots, advertising & industrial photography and
+                    TV shows produced in India and overseas.
+                  </p>
+                  <div class="tp-footer-widget-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="tp-footer-widget tp-footer-col-3 mb-50">
+                <h3 class="tp-footer-widget-title">CONTACT INFO</h3>
+                <div class="tp-footer-widget-content">
+                  <div class="tp-footer-widget-contact">
+                    <div class="tp-footer-widget-contact-inner">
+                      <a href="https://www.google.com/maps" target="_blank">304, Morya Landmark 1, Opposite Infinity
+                        Mall, Off New Link Road, Andheri (West), Mumbai 400053.</a>
+                    </div>
+                    <div class="tp-footer-widget-contact-inner">
+                      <a href="https://www.google.com/maps" target="_blank">Dubai National Insurance Building,
+                        Innovative Buisness Center,
+                        PO BOX 123385 , Dubai Flat No. 104, Office No .06, Port Saeed, Deira, Dubai, UAE.
+                      </a>
+                    </div>
+                    <div class="tp-footer-widget-contact-inner">
+                      <a class="contact-title" href="tel:123456765"><i class="fa-solid fa-phone"></i> +91 97573
+                        35137</a>
+                      <a class="contact-title" href="tel:123456765"><i class="fa-solid fa-phone"></i> +91
+                        86038000478</a>
+                    </div>
+                    <div class="tp-footer-widget-contact-inner">
+                      <a class="contact-title" href="/cdn-cgi/l/email-protection#f29b9c949db2978a939f829e97dc919d9f"><i
+                          class="fa-solid fa-envelope"></i>
+                        <span class="__cf_email__"
+                          data-cfemail="5e37303831303f333b1e333f3732703d3133">info@parmarfilms.com </span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-5 col-md-6">
+              <div class="tp-footer-widget tp-footer-col-4 mb-50">
+                <h3 class="tp-footer-widget-title">NEWSLETTER</h3>
+                <div class="tp-footer-widget-content">
+                  <div class="tp-footer-widget-input">
+                    <form action="index.html">
+                      <input type="email" placeholder="Your Email Here" />
+                      <button>
+                        <span><i class="fa-regular fa-arrow-right-long"></i></span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tp-footer-copyright-area p-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="tp-footer-copyright-inner">
+              <p>© Parmar FIlms 2023 | All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="tp-footer-copyright-inner text-lg-end">
+              <a href="#">Privacy</a>
+              <a href="#">Terms</a>
+              <a href="#">Sitemap</a>
+              <a href="#">Help</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area end -->
+
+  <!-- JS here -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/bootstrap-bundle.js"></script>
+  <script src="assets/js/swiper-bundle.js"></script>
+  <script src="assets/js/magnific-popup.js"></script>
+  <script src="assets/js/purecounter.js"></script>
+  <script src="assets/js/meanmenu.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/tilt.jquery.min.js"></script>
+  <script src="assets/js/wow.js"></script>
+  <script src="assets/js/ajax-form.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
